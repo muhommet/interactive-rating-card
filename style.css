@@ -1,0 +1,142 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+}
+.card,
+.thank-you {
+  margin-top: 50%;
+  width: 400px;
+  height: 400px;
+  background-color: hsl(213, 26%, 14%);
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border-radius: 20px;
+}
+.card button {
+  align-self: center;
+}
+.content {
+  margin: 20px 30px;
+}
+#star,
+#one,
+#two,
+#three,
+#four,
+#five {
+  width: 45px;
+  height: 45px;
+  background-color: hsla(215, 16%, 27%, 0.515);
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+}
+#star:hover,
+#one:hover,
+#two:hover,
+#three:hover,
+#four:hover,
+#five:hover {
+  cursor: pointer;
+  background-color: hsl(217, 12%, 63%);
+  transition: 0.3s;
+}
+#star:focus,
+#one:focus,
+#two:focus,
+#three:focus,
+#four:focus,
+#five:focus {
+  background-color: hsl(25, 97%, 53%);
+}
+.fa-star {
+  color: hsl(25, 97%, 53%);
+}
+.card h2 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.card p {
+  font-weight: 400;
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 30px;
+}
+.score {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+button {
+  width: 90%;
+  height: 50px;
+  align-self: center;
+  font-size: 1rem;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  letter-spacing: 2px;
+  transition: 0.3s;
+  font-family: inherit;
+}
+/* .card button {
+  user-select: none;
+} */
+button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+.score {
+  margin-bottom: 10px;
+}
+
+/* 
+===========================================
+Thank You! Page
+===========================================
+*/
+.thank-you {
+  margin-top: 50%;
+}
+.hidden {
+  display: none;
+}
+img {
+  width: 40%;
+  height: 110px;
+  align-self: center;
+  margin-top: 30px;
+}
+.result {
+  display: flex;
+  align-self: center;
+  margin-top: 10px;
+  background-color: hsla(215, 16%, 27%, 0.515);
+  height: 30px;
+  width: 50%;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  color: hsl(25, 97%, 53%);
+}
+.thank-you h2 {
+  align-self: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.thank-you p {
+  margin-top: 0 !important;
+  margin: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+}
